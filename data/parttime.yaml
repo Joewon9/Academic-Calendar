@@ -1,0 +1,13 @@
+meta:
+  calendar_name: "兼职排班"
+
+# 每次排班手动添加一条记录
+# date: 日期（YYYY-MM-DD）
+# start/end: 开始/结束时间（HH:MM，24小时制）
+# location/note: 可选
+shifts:
+  # - date: "2026-04-15"
+  #   start: "17:00"
+  #   end: "22:00"
+  #   location: ""
+  #   note: ""

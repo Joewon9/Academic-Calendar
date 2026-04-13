@@ -1,0 +1,21 @@
+meta:
+  calendar_name: "垃圾分类提醒"
+
+# frequency: weekly = 每周; biweekly = 每两周
+# days: 星期几收集（Monday/Tuesday/Wednesday/Thursday/Friday）
+rules:
+  - name: "可燃"
+    frequency: weekly
+    days: [Tuesday, Friday]
+
+  - name: "塑料"
+    frequency: weekly
+    days: [Monday]
+
+  - name: "资源"
+    frequency: weekly
+    days: [Wednesday]
+
+  - name: "不可燃"
+    frequency: biweekly
+    days: [Thursday]

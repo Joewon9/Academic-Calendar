@@ -1,0 +1,18 @@
+meta:
+  calendar_name: "账单提醒"
+
+# day_of_month: 每月几号到期
+# reminder_days_before: 提前几天推送提醒通知
+# 修改日期只需更改 day_of_month，重新 push 即可生效
+bills:
+  - name: "电费"
+    day_of_month: 27        # 请修改为实际到期日
+    reminder_days_before: 3
+
+  - name: "水费"
+    day_of_month: 20        # 请修改为实际到期日
+    reminder_days_before: 3
+
+  - name: "房租"
+    day_of_month: 25        # 请修改为实际到期日
+    reminder_days_before: 5
