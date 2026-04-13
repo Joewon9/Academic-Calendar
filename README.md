@@ -1,20 +1,24 @@
 # Academic Calendar
 
-个人日历订阅项目，涵盖学校校历、日本公共假期、垃圾分类提醒、账单提醒与兼职排班。
+个人日历订阅项目，涵盖学校校历、日本及中国公共假期、垃圾分类提醒、账单提醒与兼职排班。
 
 ## 订阅链接
 
 以下链接为 `webcal://` 格式，Apple 设备可直接点击跳转订阅；其他应用请将 `webcal://` 替换为 `https://`。
 
-**校历 & 日本节假日（推荐）**
+### 合并版本
+
+**校历 & 日本节假日**
 ```
 webcal://raw.githubusercontent.com/Joewon9/Academic-Calendar/main/ics/school_holidays.ics
 ```
 
-**全部合并**（含垃圾分类、账单、兼职排班）
+**生活提醒**（垃圾分类 + 账单 + 兼职排班）
 ```
-webcal://raw.githubusercontent.com/Joewon9/Academic-Calendar/main/ics/merged.ics
+webcal://raw.githubusercontent.com/Joewon9/Academic-Calendar/main/ics/life.ics
 ```
+
+### 单独文件
 
 **学校校历**
 ```
@@ -26,9 +30,19 @@ webcal://raw.githubusercontent.com/Joewon9/Academic-Calendar/main/ics/school.ics
 webcal://raw.githubusercontent.com/Joewon9/Academic-Calendar/main/ics/holidays.ics
 ```
 
-**生活提醒**（垃圾分类 + 账单）
+**中国节假日**
 ```
-webcal://raw.githubusercontent.com/Joewon9/Academic-Calendar/main/ics/life.ics
+webcal://raw.githubusercontent.com/Joewon9/Academic-Calendar/main/ics/holidays_cn.ics
+```
+
+**垃圾分类提醒**
+```
+webcal://raw.githubusercontent.com/Joewon9/Academic-Calendar/main/ics/garbage.ics
+```
+
+**账单提醒**
+```
+webcal://raw.githubusercontent.com/Joewon9/Academic-Calendar/main/ics/bills.ics
 ```
 
 **兼职排班**
